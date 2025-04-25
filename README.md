@@ -91,7 +91,6 @@ Spoonacular API:
 Зарегистрируйтесь на spoonacular.com/food-api.
 Получите ключ в личном кабинете.
 Структура проекта
-Code
 recipe-generator/
 ├── backend/               # Серверная часть
 │   ├── app/               # Исходники FastAPI
@@ -101,6 +100,5 @@ recipe-generator/
     ├── src/               # Исходники React
     ├── public/            # Статические файлы
     └── package.json       # Зависимости Node.js
-Code
 
 Создайте новый файл `README.md` по [этой ссылке](https://github.com/1he0den/ai_pet_project/new/main?filename=README.md), вставьте содержимое, и сохраните файл.

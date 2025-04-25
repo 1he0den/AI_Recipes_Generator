@@ -7,6 +7,11 @@
 - **Frontend**: React-приложение для взаимодействия с юзером.
 
 ---
+**ПРИМЕР ИСПОЛЬЗОВАНИЯ**
+![image](https://github.com/user-attachments/assets/43cdd56b-4c7d-4db4-9a80-bf5c4964d473)
+![image](https://github.com/user-attachments/assets/f3f53452-0f5e-4a0f-9ce4-bc4547ee2ee5)
+![image](https://github.com/user-attachments/assets/0c1cebeb-ad47-4fbc-bf49-9f9c7b9047db)
+
 
 ## 📂 Структура проекта
 

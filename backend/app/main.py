@@ -6,16 +6,16 @@ from fastapi.middleware.cors import CORSMiddleware # type: ignore
 app = FastAPI(title="AI Шеф", version="1.0.0")
 
 origins = [
-    "http://localhost:5173",  # Адрес Vite-разработки
-    "http://127.0.0.1:5173",  # Альтернативный адрес
+    "http://localhost:5173",  
+    "http://127.0.0.1:5173",  
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],  # Разрешить все методы (GET, POST и т.д.)
-    allow_headers=["*"],  # Разрешить все заголовки
+    allow_methods=["*"], 
+    allow_headers=["*"],  
 )
 
 app.include_router(recipes.router, prefix="/recipes")
